@@ -11,7 +11,7 @@ const SignUpPage = () => {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
-    password: "",
+    password: ""
   });
 
   const { signup, isSigningUp } = useAuthStore();
